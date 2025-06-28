@@ -1,0 +1,86 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+
+# Production
+build
+
+# Environment files
+.env*
+!.env.example
+
+# Debug
+debug.log
+
+# Misc
+.DS_Store
+*.tgz
+*.tar.gz
+
+# Logs
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+Dockerfile*
+.dockerignore
+
+# Git
+.git
+.gitignore
+README.md
+
+# Testing
+__tests__
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Linting
+.eslintrc.json
+.eslintignore
+
+# Type checking
+tsconfig.json
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Backup files
+*.bak
+*.tmp
+
+# IDE
+*.code-workspace

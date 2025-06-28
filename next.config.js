@@ -36,8 +36,23 @@ const nextConfig = {
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "storage.googleapis.com",
+      },
+      {
+        protocol: "https",
+        hostname: "*.storage.googleapis.com",
+      },
     ],
   },
+  // Enable standalone output for Docker
+  output: 'standalone',
+  // Disable telemetry for production
+  telemetry: false,
+  // Production optimizations
+  poweredByHeader: false,
+  compress: true,
 }
 
 module.exports = nextConfig
